@@ -16,6 +16,7 @@ class PhotosCollectionViewController: UICollectionViewController {
     private let selectedPhotoSubject = PublishSubject<UIImage>()
 
     // this computed property will be set every time a segue to this VC is initiated
+    // there is a subscription to the selectedPhoto when doing the segue
     var selectedPhoto: Observable<UIImage> {
         return selectedPhotoSubject.asObservable()
     }
@@ -96,6 +97,8 @@ class PhotosCollectionViewController: UICollectionViewController {
             if !isDegradedImage {
                 
                 if let image = image {
+                    // here we are using the image that was selected (if it is not the degraded image we used in the image picker)
+                    // since we can rest assured that there is a subscription once we segue from our initial VC to the photCVC, we can use onNext without the risk that it won't be called, because remember: With a publishSubject, events only get called AFTER subscription
                     self?.selectedPhotoSubject.onNext(image)
                     self?.dismiss(animated: true, completion: nil)
                 }

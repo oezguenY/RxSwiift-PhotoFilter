@@ -26,9 +26,11 @@ class ViewController: UIViewController {
             fatalError("Segueway destination not found")
             
         }
+        // when we are using the segue, we are subscribing to the selectedPhoto which is an observable.
         photosCVC.selectedPhoto.subscribe(onNext: { photo in
             
             self.photoIV.image = photo
+            // ARC
         }).disposed(by: disposeBag)
         
     }
