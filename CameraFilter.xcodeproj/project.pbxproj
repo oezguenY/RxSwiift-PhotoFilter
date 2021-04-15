@@ -15,6 +15,7 @@
 		E383889A26289FB8001295A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E383889826289FB8001295A5 /* LaunchScreen.storyboard */; };
 		E38388A32628A2D7001295A5 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38388A22628A2D7001295A5 /* PhotosCollectionViewController.swift */; };
 		E38388A92628BB1E001295A5 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38388A82628BB1D001295A5 /* PhotoCollectionViewCell.swift */; };
+		E3C980122628E53E008DB0BD /* FilterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C980112628E53E008DB0BD /* FilterService.swift */; };
 		EBC0DD5801AC0B9A9BFB1E69 /* Pods_CameraFilter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 626553610A00D0340B97FFC7 /* Pods_CameraFilter.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		E383889B26289FB8001295A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E38388A22628A2D7001295A5 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
 		E38388A82628BB1D001295A5 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		E3C980112628E53E008DB0BD /* FilterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				E383889B26289FB8001295A5 /* Info.plist */,
 				E38388A22628A2D7001295A5 /* PhotosCollectionViewController.swift */,
 				E38388A82628BB1D001295A5 /* PhotoCollectionViewCell.swift */,
+				E3C980112628E53E008DB0BD /* FilterService.swift */,
 			);
 			path = CameraFilter;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 				E383889226289FB3001295A5 /* ViewController.swift in Sources */,
 				E38388A92628BB1E001295A5 /* PhotoCollectionViewCell.swift in Sources */,
 				E383888E26289FB3001295A5 /* AppDelegate.swift in Sources */,
+				E3C980122628E53E008DB0BD /* FilterService.swift in Sources */,
 				E383889026289FB3001295A5 /* SceneDelegate.swift in Sources */,
 				E38388A32628A2D7001295A5 /* PhotosCollectionViewController.swift in Sources */,
 			);
