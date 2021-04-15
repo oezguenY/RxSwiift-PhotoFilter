@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		E383889726289FB8001295A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E383889626289FB8001295A5 /* Assets.xcassets */; };
 		E383889A26289FB8001295A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E383889826289FB8001295A5 /* LaunchScreen.storyboard */; };
 		E38388A32628A2D7001295A5 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38388A22628A2D7001295A5 /* PhotosCollectionViewController.swift */; };
+		E38388A92628BB1E001295A5 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38388A82628BB1D001295A5 /* PhotoCollectionViewCell.swift */; };
 		EBC0DD5801AC0B9A9BFB1E69 /* Pods_CameraFilter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 626553610A00D0340B97FFC7 /* Pods_CameraFilter.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		E383889926289FB8001295A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E383889B26289FB8001295A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E38388A22628A2D7001295A5 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
+		E38388A82628BB1D001295A5 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,6 @@
 				78A9F216B8FA62633A8F6154 /* Pods-CameraFilter.debug.xcconfig */,
 				642D6CFC7C5B0194ADEE5E3A /* Pods-CameraFilter.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -91,6 +92,7 @@
 				E383889826289FB8001295A5 /* LaunchScreen.storyboard */,
 				E383889B26289FB8001295A5 /* Info.plist */,
 				E38388A22628A2D7001295A5 /* PhotosCollectionViewController.swift */,
+				E38388A82628BB1D001295A5 /* PhotoCollectionViewCell.swift */,
 			);
 			path = CameraFilter;
 			sourceTree = "<group>";
@@ -210,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E383889226289FB3001295A5 /* ViewController.swift in Sources */,
+				E38388A92628BB1E001295A5 /* PhotoCollectionViewCell.swift in Sources */,
 				E383888E26289FB3001295A5 /* AppDelegate.swift in Sources */,
 				E383889026289FB3001295A5 /* SceneDelegate.swift in Sources */,
 				E38388A32628A2D7001295A5 /* PhotosCollectionViewController.swift in Sources */,
